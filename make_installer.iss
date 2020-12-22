@@ -26,7 +26,7 @@ WizardStyle=modern
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "C:\dev\msys64\home\jimgr\git-crypt\git-crypt.exe"; DestDir: "{win}"; Flags: ignoreversion
+Source: "C:\dev\msys64\home\{%USERNAME}\git-crypt\git-crypt.exe"; DestDir: "{win}"; Flags: ignoreversion
 Source: "C:\dev\msys64\mingw64\bin\libcrypto-1_1-x64.dll"; DestDir: "{win}"; Flags: ignoreversion
 Source: "C:\dev\msys64\mingw64\bin\libgcc_s_seh-1.dll"; DestDir: "{win}"; Flags: ignoreversion
 Source: "C:\dev\msys64\mingw64\bin\libstdc++-6.dll"; DestDir: "{win}"; Flags: ignoreversion
