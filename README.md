@@ -19,7 +19,7 @@
      that is used by the installer and can be changed by the user.
 
 ## Pre-built Installer
-A pre-built installer is available in this repo at [Installer/git-crypt-setup.exe](Installer/git-crypt-setup.exe)
+A pre-built installer is available in this repo. <a href="Installer/git-crypt-setup.exe" download>Click to Download.</a>
 
 ## Building `git-crypt` for Windows
 
