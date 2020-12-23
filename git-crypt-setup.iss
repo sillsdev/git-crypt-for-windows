@@ -17,10 +17,10 @@ AppPublisher={#MyAppPublisher}
 DefaultDirName=C:\Program Files\Git\cmd\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\jimgr\Documents\src\git-crypt-for-windows\LICENSE
+LicenseFile=LICENSE
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=Output
+OutputDir=Installer
 OutputBaseFilename=git-crypt-setup
 Compression=lzma
 SolidCompression=yes
@@ -30,7 +30,7 @@ WizardStyle=modern
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "C:\dev\msys64\home\{%USERNAME%}\git-crypt\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "git-crypt\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\dev\msys64\mingw64\bin\libcrypto-1_1-x64.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\dev\msys64\mingw64\bin\libgcc_s_seh-1.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\dev\msys64\mingw64\bin\libstdc++-6.dll"; DestDir: "{app}"; Flags: ignoreversion
