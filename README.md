@@ -8,6 +8,7 @@
    - adds the installation directory to the system Path.
 
 ## Requirements
+  - [WiX Toolset](https://wixtoolset.org/)
   - `git` client for windows
 
 ## Building `git-crypt` for Windows
@@ -18,7 +19,7 @@ To build `git-crypt.exe`:
   3. Open an `msys2` window.
   4. Install `g++` for windows using the instructions at [Installing GCC & MSYS2](https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2).
   5. Verify that `g++` and `git` are in your Path.
-  6. `git clone git@github.com:AGWA/git-crypt`
+  6. `git clone https://github.com/AGWA/git-crypt.git`
   7. `make`
 
 At this point, you will have a working copy of `git-crypt.exe` in the `git-crypt`
