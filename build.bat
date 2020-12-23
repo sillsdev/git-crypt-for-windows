@@ -1,6 +1,7 @@
-REM Set HOME to the current directory so that it is the current directory for the
-REM msys2 shell 
 @echo off
+
+REM Set HOME to the current directory so that it is the current directory for the
+REM msys2 shell
 set HOME=.
 IF NOT EXIST Installer mkdir Installer
 c:\dev\msys64\usr\bin\env MSYSTEM=MINGW64 c:\dev\msys64\usr\bin\bash -l -c "chmod +x msys2-build.sh ; ./msys2-build.sh"
