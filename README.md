@@ -17,7 +17,10 @@
   2. The `git` client is intalled in `C:\Program Files\Git` and that `git-crypt.exe`
      should be installed in `C:\Program Files\Git\cmd`.  This is the default location
      that is used by the installer and can be changed by the user.
-     
+
+## Pre-built Installer
+A pre-built installer is available in this repo at [Installer/git-crypt-setup.exe](Installer/git-crypt-setup.exe)
+
 ## Building `git-crypt` for Windows
 
 To build `git-crypt.exe`:
