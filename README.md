@@ -8,17 +8,12 @@
    - adds the installation directory to the system Path.
 
 ## Requirements
-  - `git` client for windows
+  - `git` client for Windows, such as the package from [git-scm.com](https://git-scm.com/download/win)
+  - `gpg` tool for Windows.  `gpg` is installed as part of the `git` client above.
+    If it is not installed on your system, you can download it from [GnuPG](https://gnupg.org/).
   - [Inno Setup 6](https://jrsoftware.org/isdl.php)
 
-## Assumptions
-  1. The build script assumes that the installation folder for _Inno Setup_ is
-     `C:\Program Files (x86)\Inno Setup 6`
-  2. The `git` client is intalled in `C:\Program Files\Git` and that `git-crypt.exe`
-     should be installed in `C:\Program Files\Git\cmd`.  This is the default location
-     that is used by the installer and can be changed by the user.
-
-## Pre-built Installer
+## `git-crypt` Installer
 A pre-built installer is available in this repo. <a href="Installer/git-crypt-setup.exe" download>Click to Download.</a>
 
 ## Building `git-crypt` for Windows
@@ -31,3 +26,10 @@ To build `git-crypt.exe`:
 
 At this point, you will have a working copy of `git-crypt.exe` in the `git-crypt`
 directory and an installer package in `.\Installer\git-crypt-setup.exe`.
+
+## Assumptions
+  1. The build script assumes that the installation folder for _Inno Setup_ is
+     `C:\Program Files (x86)\Inno Setup 6`
+  2. The `git` client is intalled in `C:\Program Files\Git` and that `git-crypt.exe`
+     should be installed in `C:\Program Files\Git\cmd`.  This is the default location
+     that is used by the installer and can be changed by the user.
