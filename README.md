@@ -4,8 +4,7 @@
  * instructions for building [AQWA/git-crypt](https://github.com/AGWA/git-crypt) for Windows 10; and
  * an installer package that:
    - installs `git-crypt.exe`;
-   - installs the required DLLs for `git-crypt.exe`; and
-   - adds the installation directory to the system Path.
+   - installs the required DLLs for `git-crypt.exe`.
 
 ## Requirements
   - `git` client for Windows, such as the package from [git-scm.com](https://git-scm.com/download/win)
