@@ -13,7 +13,7 @@
   - [Inno Setup 6](https://jrsoftware.org/isdl.php)
 
 ## `git-crypt` Installer
-A pre-built installer is available in this repo. <a href="Installer/git-crypt-setup.exe" download>Click to Download.</a>
+A pre-built installer is available in the releases section of this repository.
 
 ## Building `git-crypt` for Windows
 
