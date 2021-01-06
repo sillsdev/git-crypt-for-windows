@@ -1,0 +1,11 @@
+
+*.code-workspace
+
+# Ignore files that start with underscore - used to name testing scripts
+_*
+
+# Ignore git-crypt directory - the build process will clone the git-crypt repo here
+git-crypt/
+
+# Ignore the build artifacts
+Installer/
