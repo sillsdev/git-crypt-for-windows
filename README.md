@@ -20,8 +20,12 @@ A pre-built installer is available in this repo. <a href="Installer/git-crypt-se
 To build `git-crypt.exe`:
   1. Install `msys2` and `g++` for windows using the instructions at
      [Installing GCC & MSYS2](https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2).
-  2. Verify that `g++` and `git` are in your Path.
-  3. Run `.\build.bat`
+     This instructions direct you to install MSYS2 in `C:\dev\msys64`.  You may
+     install it in any directory that you choose.
+  2. Open the `System` app and create an environment variable, `MSYS2_DIR`, set
+     to the value of the MSYS2 installation directory.
+  3. Verify that `g++` and `git` are in your Path.
+  4. Run `.\build.bat`
 
 At this point, you will have a working copy of `git-crypt.exe` in the `git-crypt`
 directory and an installer package in `.\Installer\git-crypt-setup.exe`.
